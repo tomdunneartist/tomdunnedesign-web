@@ -145,7 +145,7 @@ ul li a {
 	word-break:keep-all;
 	font-size: 20px;
 	padding-right: 10px;
-	line-height: 8px;
+	line-height: 2px;
 	letter-spacing: -2px;
 	text-align: left;
 }
@@ -205,7 +205,7 @@ ul li a {
 		word-break:keep-all;
 		font-size: 42px;
 		padding-right: 10px;
-		line-height: 72px;
+		line-height: 42px;
 		letter-spacing: -2px;
 		text-align: left;
 	}
