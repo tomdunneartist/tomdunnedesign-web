@@ -36,7 +36,7 @@ header {
 	letter-spacing: 1px;
 }
 .logo:hover {
-	color: #FF0000;
+	color: #00FFFF;
 }
 
 
@@ -48,7 +48,7 @@ header {
     margin-top:2px;
 }
 .dark-icon:hover {
-    color: #FF0000;
+    color: #00FFFF;
 }
 
 .light-icon {
@@ -59,7 +59,7 @@ header {
     margin-top:2px;
 }
 .light-icon:hover {
-    color: #00FFFF;
+    background: #00FFFF;
 }
 
 nav {
@@ -88,7 +88,7 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #FF0000;
+	color: #00FFFF;
 }
 .hero_header {
 	font-size: 15vh;

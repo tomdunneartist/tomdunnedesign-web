@@ -48,7 +48,7 @@ header {
     margin-top:2px;
 }
 .dark-icon:hover {
-    color: #FF0000;
+    background: #FF0000;
 }
 
 .light-icon {
