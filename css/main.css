@@ -43,7 +43,10 @@ header {
     width:20px;
     height:20px;
     border-radius: 50%;
-    float: right
+    margin-top:2px;
+}
+.dark-icon:hover {
+    color: #FF0000;
 }
 
 .light-icon {
@@ -51,7 +54,10 @@ header {
     width:20px;
     height:20px;
     border-radius: 50%;
-    float: right
+    margin-top:2px;
+}
+.light-icon:hover {
+    color: #00FFFF;
 }
 
 nav {
