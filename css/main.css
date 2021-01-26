@@ -105,6 +105,14 @@ ul li:hover a {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+.image01 {
+    width: 300px;
+    height: 300px;
+    
+    
+}
+
 .light {
 	font-weight: 300;
 	color: #656565;
@@ -163,7 +171,6 @@ ul li a {
 }
 .mobilebreak {
 	word-break:break-all;
-    hyphens:manual(;
 }
 
 .hero .hero_header {
