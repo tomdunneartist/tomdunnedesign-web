@@ -213,12 +213,8 @@ header {
 	}
 	nav {
 		float: right;
-		width: 60%;
+		width: 50%;
 		margin-right: 20px;
-	}
-	header nav ul {
-		list-style: none;
-        display: inline;
 	}
 	nav ul li {
 		float: left;
@@ -227,13 +223,14 @@ header {
 		text-align: left;
 		margin-right: 15px;
 		letter-spacing: 2px;
-		font-weight: bold;
+		font-weight: 100;
 		transition: all 0.3s linear;
 	}
 	ul li a {
 		color: #656565;
 		font-size: 20px;
 		text-decoration: none;
+        display:inline;
 	}
 	
 	.hero .hero_header {
