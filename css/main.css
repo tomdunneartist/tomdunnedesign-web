@@ -212,10 +212,9 @@ header {
 		letter-spacing: 1px;
 	}
 	nav {
-		float: left;
-		width: 50%;
-		text-align: left;
-		margin-right: 0px;
+		float: right;
+		width: 60%;
+		margin-right: 20px;
 	}
 	header nav ul {
 		list-style: none;
