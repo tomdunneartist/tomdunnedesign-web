@@ -223,7 +223,7 @@ header {
 	}
 	header nav ul {
 		list-style: none;
-		float: right;
+		float: center;
 	}
 	nav ul li {
 		float: left;
