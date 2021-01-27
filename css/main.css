@@ -173,15 +173,11 @@ header {
 		font-size: 20px;
 		text-decoration: none;
 	}
-	.mobilebreak {
-        overflow: hidden;
-		word-break: keep-all;
-	}
 	
 	.hero .hero_header {
-		font-size: 30px;
+		font-size: 48px;
 		padding-right: 10px;
-		line-height: 32px;
+		line-height: 38px;
 		letter-spacing: -2px;
 		text-align: left;
 	}
@@ -216,14 +212,14 @@ header {
 		letter-spacing: 1px;
 	}
 	nav {
-		float: right;
+		float: left;
 		width: 50%;
-		text-align: right;
+		text-align: left;
 		margin-right: 0px;
 	}
 	header nav ul {
 		list-style: none;
-		float: center;
+        display: inline;
 	}
 	nav ul li {
 		float: left;
@@ -240,23 +236,14 @@ header {
 		font-size: 20px;
 		text-decoration: none;
 	}
-	.mobilebreak {
-        overflow: hidden;
-		word-break: keep-all;
-	}
 	
 	.hero .hero_header {
 		font-size: 90px;
 		padding-right: 10px;
-		line-height: 92px;
+		line-height: 72px;
 		letter-spacing: -2px;
 		text-align: left;
 	}
-    
-    .hero {
-        font-size: 100em;
-    }
-    
     
 	.copyright {
 		font-size: 12px;
