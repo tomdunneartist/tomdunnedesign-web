@@ -107,12 +107,8 @@ ul li:hover a {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-
-.image01 {
-    width: 300px;
-    height: 300px;
-    
-    
+.mobileShow {
+    display: none;
 }
 
 .light {
@@ -191,7 +187,11 @@ ul li a {
 	letter-spacing: -2px;
 	text-align: left;
 }
-    
+
+.mobileShow {
+    display: inline;
+    }    
+
 .copyright {
 	font-size: 12px;
 }
@@ -252,6 +252,11 @@ ul li a {
 		letter-spacing: -2px;
 		text-align: left;
 	}
+    
+    .mobileShow {
+        display: inline;
+    }
+    
 	.copyright {
 		font-size: 12px;
 	}
