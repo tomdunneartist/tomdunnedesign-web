@@ -211,11 +211,6 @@ header {
 		margin-top: 20px;
 		letter-spacing: 1px;
 	}
-	nav {
-		float: right;
-		width: 50%;
-		margin-right: 20px;
-	}
 	nav ul li {
 		float: left;
 		color: #656565;
@@ -225,12 +220,6 @@ header {
 		letter-spacing: 2px;
 		font-weight: 100;
 		transition: all 0.3s linear;
-	}
-	ul li a {
-		color: #656565;
-		font-size: 20px;
-		text-decoration: none;
-        display:inline;
 	}
 	
 	.hero .hero_header {
