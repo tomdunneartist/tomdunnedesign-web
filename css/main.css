@@ -48,16 +48,6 @@ header {
 .dark-icon:hover {
     background: #FF0000;
 }
-.light-icon {
-    background: #F0F0F0;
-    width:20px;
-    height:20px;
-    border-radius: 50%;
-    margin-top:2px;
-}
-.light-icon:hover {
-    color: #00FFFF;
-}
 nav {
 	float: right;
 	width: 50%;
