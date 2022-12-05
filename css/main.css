@@ -9,7 +9,6 @@
     color: lightgrey;
 }
 
-
 audio,
 canvas,
 iframe,
@@ -43,7 +42,6 @@ html {
     font-family: "Helvetica Neue ", Helvetica, sans-serif;
     background-color: transparent;
     text-rendering: optimizeLegibility;
-
 }
 
 .browserupgrade {
@@ -62,7 +60,6 @@ svg {
 img {
     align-content: center;
 }
-
 
 body {
     opacity: 1;
@@ -86,8 +83,6 @@ body {
     z-index: 99999;
 }
 
-
-
 text {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -97,12 +92,16 @@ text {
     font-size: 28px;
     margin: 0px;
     padding: 0px;
-    
 }
 
 .spacefirst {
     width: 100%;
     height: 13vh;
+}
+
+.spacefirstintro {
+    width: 100%;
+    height: 3.5vh;
 }
 
 .space {
@@ -114,8 +113,6 @@ text {
     width: 100%;
     height: 13vh;
 }
-
-
 
 .p1 {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -129,7 +126,6 @@ text {
     text-align: left;
     z-index: 999;
     font-weight: 400;
-    
 }
 
 .p2 {
@@ -145,25 +141,7 @@ text {
     text-align: left;
     z-index: 999;
     font-weight: 400;
-    
 }
-
-.hidden-text {
-    color: rgb(255, 255, 255);
-    float: right;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 14px;
-    line-height: 1.25;
-    letter-spacing: 0em;
-    margin-left: 1200px;
-    padding: 0px;
-    background-color: transparent;
-    text-align: left;
-    z-index: 999;
-    font-weight: 400;
-}
-
 
 .col1 {
     width: 10%;
@@ -204,7 +182,6 @@ text {
 .col10 {
     width: 100%;
 }
-
 
 /*fade */
 #fade {
@@ -263,16 +240,12 @@ text {
     }
 }
 
-
-
 .description {
     padding-top: 15px;
     margin-left: 30%;
     box-sizing: border-box;
     position: fixed;
-
 }
-
 
 .about {
     right: 20px;
@@ -299,7 +272,6 @@ text {
     position: fixed;
     z-index: 9999;
     color: black;
-    
 }
 
 .name3 {
@@ -310,7 +282,6 @@ text {
     z-index: 9999;
     color: black;
 }
-
 
 a.here:active,
 a.here:visited,
@@ -368,7 +339,6 @@ a:hover {
     text-decoration: none;
 }
 
-
 .row {
     display: flex;
     margin: 0px;
@@ -390,8 +360,6 @@ a:hover {
     position: absolute;
 }
 
-
-
 @media only screen and (max-width: 1200px) {
     h1 {
         font-family: "Helvetica Neue ", Helvetica, sans-serif;
@@ -412,6 +380,11 @@ a:hover {
         height: 13vh;
     }
 
+    .spacefirstintro {
+        width: 100%;
+        height: 6vh;
+    }
+
     .space {
         width: 100%;
         height: 25vh;
@@ -421,8 +394,6 @@ a:hover {
         width: 100%;
         height: 13vh;
     }
-
-
 
     @media only screen and (max-width: 700px) {
         .col1 {
@@ -466,9 +437,6 @@ a:hover {
             width: 100%;
         }
 
-
-
-
         text {
             font-family: "Helvetica Neue", Helvetica, sans-serif;
             -webkit-font-smoothing: antialiased;
@@ -480,6 +448,10 @@ a:hover {
             padding: 0px;
         }
 
+        p {
+            padding: 30px;
+            font-family: "Helvetica Neue", Helvetica, sans-serif;
+        }
 
         h1 {
             font-family: "Helvetica Neue ", Helvetica, sans-serif;
@@ -513,12 +485,10 @@ a:hover {
     margin: auto;}
 */
 
-.p2 {
-    margin-right:20px;
-}
+        .p2 {
+            margin-right: 20px;
+        }
 
-       
-        
         .name3 {
             left: 20px;
             top: 30px;
@@ -528,16 +498,16 @@ a:hover {
             color: black;
         }
 
-
         img {
             align-content: center;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
 
         img #nature-icon {
             padding-left: 200px;
         }
+
         .spacefirst {
             width: 100%;
             height: 50px;
@@ -560,8 +530,6 @@ a:hover {
         .row2 {
             display: block;
         }
-
-
     }
 
     @media only screen and (max-width: 420px) {
@@ -572,11 +540,9 @@ a:hover {
     padding: 5%;
     margin: auto;}
 */
-.p2 {
-    margin-right: 20px;
-}
-
-
+        .p2 {
+            margin-right: 20px;
+        }
 
         .spacefirst {
             width: 100%;
@@ -592,9 +558,7 @@ a:hover {
             width: 100%;
             height: 20px;
         }
-        
     }
-
 
     /* ==========================================================================
    Helper classes
@@ -682,8 +646,6 @@ a:hover {
     .clearfix:after {
         clear: both;
     }
-
-
 
     @media only screen and (min-width: 35em) {
         /* Style adjustments for viewports that meet the condition */
@@ -775,3 +737,16 @@ a:hover {
         }
     }
 }
+
+.gifsplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trashsplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
