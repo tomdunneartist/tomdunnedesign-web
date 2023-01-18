@@ -144,39 +144,6 @@ text {
     font-weight: 400;
 }
 
-
-.p1blue {
-    color:#248DEE;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 14px;
-    line-height: 1.25;
-    letter-spacing: 0em;
-    margin: 10px;
-    padding: 0px;
-    background-color: transparent;
-    text-align: left;
-    z-index: 999;
-    font-weight: 600;
-}
-
-.p2blue {
-    color:#248DEE;
-    float: right;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 14px;
-    line-height: 1.25;
-    letter-spacing: 0em;
-    margin: 10px;
-    padding: 0px;
-    background-color: transparent;
-    text-align: left;
-    z-index: 999;
-    font-weight: 400;
-}
-
-
 .col1 {
     width: 10%;
 }
@@ -371,11 +338,6 @@ a {
 a:hover {
     color: lightgrey;
     text-decoration: none;
-}
-
-.container {
-    display: flex;
-    justify-content: left;
 }
 
 
