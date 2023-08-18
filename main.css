@@ -650,6 +650,20 @@ section .preview-opaque:hover {
 }
 
 
+section .preview-opaque2 {
+    max-width: 960px;
+    margin: var(--mediumPadding) auto;
+    overflow: hidden;
+    transition: transform 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6), box-shadow 0.4s ease;
+    transform: scale(1);
+    
+}
+
+section .preview-opaque2:hover {
+    
+}
+
+
 section .preview-large {
     display: flex;
     justify-content: center;
